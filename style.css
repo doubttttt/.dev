@@ -1,13 +1,23 @@
-body {
-    margin: 0;
-    height: 100vh;
-    background: rgb(27,27,27);
-    cursor: none;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.cursor {
-    width: 20px;
-    height: 20px;
-    border: 1px solid white;
-    border-radius: 50%;
+
+#particles-js {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.text {
     position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
 }
