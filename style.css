@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: rgb(27,27,27);
+    cursor: none;
+}
+.cursor {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
