@@ -3,12 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-#particles-js {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-}
 .text {
     position: absolute;
     top: 25%;
@@ -20,4 +14,8 @@ h1 {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100px;
+}
+
+body {
+    background-color:black;
 }
